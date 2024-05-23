@@ -38,26 +38,24 @@ public class MainActivity extends AppCompatActivity {
         bottomNavView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.mNews:
-                        Toast.makeText(getApplicationContext(),
-                                "Cliquei em News", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.mGlobal:
-                        Toast.makeText(getApplicationContext(),
-                                "Cliquei em Global", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.mForYou:
-                        Toast.makeText(getApplicationContext(),
-                                "Cliquei em For You", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.mTrending:
-                        Toast.makeText(getApplicationContext(),
-                                "Cliquei em Trending", Toast.LENGTH_SHORT).show();
-                        break;
+                if (item.getItemId() == R.id.mNews) {
 
-
+                    Toast.makeText(getApplicationContext(),
+                            "Cliquei em News", Toast.LENGTH_SHORT).show();
                 }
+                if (item.getItemId() == R.id.mGlobal) {
+                    Toast.makeText(getApplicationContext(),
+                            "Cliquei em Global", Toast.LENGTH_SHORT).show();
+                }
+                if (item.getItemId() == R.id.mForYou) {
+                    Toast.makeText(getApplicationContext(),
+                            "Cliquei em For You", Toast.LENGTH_SHORT).show();
+                }
+                if (item.getItemId() == R.id.mTrending) {
+                    Toast.makeText(getApplicationContext(),
+                            "Cliquei em Trending", Toast.LENGTH_SHORT).show();
+                }
+
 
                 return false;
             }
