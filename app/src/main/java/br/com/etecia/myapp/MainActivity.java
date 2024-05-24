@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if (item.getItemId() == R.id.mNews) {
-
                     Toast.makeText(getApplicationContext(),
                             "Cliquei em News", Toast.LENGTH_SHORT).show();
                 }
@@ -55,12 +54,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),
                             "Cliquei em Trending", Toast.LENGTH_SHORT).show();
                 }
-
-
                 return false;
             }
         });
-
-
     }
 }
