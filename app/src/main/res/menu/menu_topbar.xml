@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFav"
+        android:icon="@drawable/baseline_favorite"
+        android:title="Favorite"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mLoc"
+        android:icon="@drawable/baseline_add_location"
+        android:title="Location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mClo"
+        android:icon="@drawable/baseline_cloud"
+        android:title="Cloud"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mExp"
+        android:icon="@drawable/baseline_explore"
+        android:title="Explore"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSea"
+        android:icon="@drawable/baseline_search"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSha"
+        android:icon="@drawable/baseline_share"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+
+</menu>
